@@ -42,6 +42,9 @@
                                             <color key="baseForegroundColor" systemColor="systemRedColor"/>
                                             <color key="baseBackgroundColor" systemColor="systemMintColor"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ybp-bj-Bc7"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>

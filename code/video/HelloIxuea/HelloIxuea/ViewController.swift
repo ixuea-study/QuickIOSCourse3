@@ -23,7 +23,17 @@ class ViewController: UIViewController {
         titleView.text = "我们是爱学啊，这是代码中设置的！"
         
     }
-
-
+    
+    /// 按钮点击回调事件
+    /// - Parameter sender: <#sender description#>
+    @IBAction func buttonClick(_ sender: UIButton) {
+        //点击按钮后
+       //他就会执行这个方法
+       //基本上所有按钮的事件都是这样一个使用方法
+        print("你还真点击啊！")
+        
+        sender.setTitle("点击了", for: .normal)
+    }
+    
 }
 

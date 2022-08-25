@@ -45,5 +45,21 @@ class ViewController: UIViewController {
         print("你还真点击啊2222！")
     }
     
+    /// 打开按钮点击
+    /// - Parameter sender: <#sender description#>
+    @IBAction func openPage(_ sender: UIButton) {
+        //实例化场景
+        //因为场景有控制器
+        //所以也可以说实例化控制器
+        //但实例化过程是系统完成的
+        //不是我们手动创建的
+        let controller=storyboard!.instantiateViewController(withIdentifier: "Second")
+        
+        //全屏
+        controller.modalPresentationStyle = .fullScreen
+        
+        //关闭当前界面
+        present(controller, animated: true)
+    }
 }
 

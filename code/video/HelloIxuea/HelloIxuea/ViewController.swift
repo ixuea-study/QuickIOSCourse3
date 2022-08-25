@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var tfUsername: UITextField!
     
+    @IBOutlet weak var iconView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -30,6 +31,8 @@ class ViewController: UIViewController {
         
         //添加点击事件
         buttonView.addTarget(self, action: #selector(buttonClick2(_:)), for: .touchUpInside)
+        
+        iconView.image = UIImage(named: "CourseLogo")
     }
     
     /// 按钮点击回调事件

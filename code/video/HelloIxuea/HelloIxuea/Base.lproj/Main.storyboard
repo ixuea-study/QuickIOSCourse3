@@ -31,6 +31,9 @@
                             <constraint firstItem="Dbq-8I-m8Z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="h6Q-T9-wlg"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="titleView" destination="Dbq-8I-m8Z" id="z4k-Ow-Uid"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

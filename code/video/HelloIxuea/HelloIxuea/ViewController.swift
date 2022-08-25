@@ -17,6 +17,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var buttonView: UIButton!
     
     
+    @IBOutlet weak var tfUsername: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -60,6 +62,25 @@ class ViewController: UIViewController {
         
         //关闭当前界面
         present(controller, animated: true)
+    }
+    
+    @IBAction func loginClick(_ sender: Any) {
+        let inputText = tfUsername.text!
+        
+        if inputText.isEmpty {
+            //如果为空
+           //就提示用户
+           print("用户名不能为空")
+           return
+        }
+        
+        //TODO 当然还可以有更多的判断
+        //比如：判断是否输入的是手机号
+        //这部分我们在最后做项目在讲
+
+        //TODO 走到这里表示输入了用户名，可以调用登录接口
+        
+        print("你输入的用户名是:\(inputText)")
     }
 }
 

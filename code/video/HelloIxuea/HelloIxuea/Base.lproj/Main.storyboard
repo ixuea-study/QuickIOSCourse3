@@ -43,7 +43,7 @@
                                             <color key="baseBackgroundColor" systemColor="systemMintColor"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ybp-bj-Bc7"/>
+                                            <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cSg-7k-kiX"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -58,6 +58,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="buttonView" destination="m9t-vf-l0h" id="AaP-VT-euG"/>
                         <outlet property="titleView" destination="civ-7u-P4T" id="Fdc-fA-R9F"/>
                     </connections>
                 </viewController>

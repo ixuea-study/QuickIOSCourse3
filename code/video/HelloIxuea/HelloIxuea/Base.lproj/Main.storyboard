@@ -64,7 +64,33 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="132" y="77"/>
+            <point key="canvasLocation" x="-112" y="65"/>
+        </scene>
+        <!--Second Controller-->
+        <scene sceneID="kxA-aF-c7E">
+            <objects>
+                <viewController storyboardIdentifier="Second" id="mXt-oV-OTg" customClass="SecondController" customModule="HelloIxuea" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1hf-5R-mGE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jhj-DS-FEU">
+                                <rect key="frame" x="180.5" y="432.5" width="53" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="关闭"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0AF-Ty-H5a"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jhj-DS-FEU" firstAttribute="centerX" secondItem="1hf-5R-mGE" secondAttribute="centerX" id="VGJ-Bm-X1b"/>
+                            <constraint firstItem="jhj-DS-FEU" firstAttribute="centerY" secondItem="1hf-5R-mGE" secondAttribute="centerY" id="ZAq-dr-R7c"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PEk-lm-883" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="617" y="65"/>
         </scene>
     </scenes>
     <resources>

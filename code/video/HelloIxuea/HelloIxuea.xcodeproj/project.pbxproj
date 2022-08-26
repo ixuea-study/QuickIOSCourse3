@@ -17,6 +17,7 @@
 		765FBC6D28B803D900D8FCA0 /* HelloIxueaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765FBC6C28B803D900D8FCA0 /* HelloIxueaUITests.swift */; };
 		765FBC6F28B803D900D8FCA0 /* HelloIxueaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765FBC6E28B803D900D8FCA0 /* HelloIxueaUITestsLaunchTests.swift */; };
 		765FBC7D28B8206900D8FCA0 /* SecondController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765FBC7C28B8206900D8FCA0 /* SecondController.swift */; };
+		765FBC7F28B8431300D8FCA0 /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765FBC7E28B8431300D8FCA0 /* ListController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		765FBC6C28B803D900D8FCA0 /* HelloIxueaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloIxueaUITests.swift; sourceTree = "<group>"; };
 		765FBC6E28B803D900D8FCA0 /* HelloIxueaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloIxueaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		765FBC7C28B8206900D8FCA0 /* SecondController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondController.swift; sourceTree = "<group>"; };
+		765FBC7E28B8431300D8FCA0 /* ListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				765FBC7C28B8206900D8FCA0 /* SecondController.swift */,
+				765FBC7E28B8431300D8FCA0 /* ListController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				765FBC5028B803D700D8FCA0 /* ViewController.swift in Sources */,
+				765FBC7F28B8431300D8FCA0 /* ListController.swift in Sources */,
 				765FBC7D28B8206900D8FCA0 /* SecondController.swift in Sources */,
 				765FBC4C28B803D700D8FCA0 /* AppDelegate.swift in Sources */,
 				765FBC4E28B803D700D8FCA0 /* SceneDelegate.swift in Sources */,

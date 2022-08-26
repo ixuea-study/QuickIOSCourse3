@@ -27,7 +27,29 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         //可能还有引导界面
         //大家可以学习我们的《iOS项目实战之我的云音乐使用Swift》课程
         
-        //TODO 跳转到登录界面
+        //跳转到登录界面
+        toLogin()
+    }
+    
+    /// 跳转到登录界面
+    func toLogin() {
+        setRootController("Login")
+    }
+    
+    func toHome() {
+        setRootController("Home")
+    }
+    
+    func setRootController(_ data:String) {
+        //获取Main.storyboard
+        let storyboard=UIStoryboard(name: "Main", bundle: nil)
+        
+        //实例化控制器
+        let controller=storyboard.instantiateViewController(withIdentifier: data)
+        
+        //这里是替换原来的根控制
+        //目的是我们不希望用户在登录界面还能返回到启动界面
+        window?.rootViewController=controller
     }
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {

@@ -16,6 +16,7 @@
 		765FBCA428B849E200D8FCA0 /* KanMeiTuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765FBCA328B849E200D8FCA0 /* KanMeiTuTests.swift */; };
 		765FBCAE28B849E200D8FCA0 /* KanMeiTuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765FBCAD28B849E200D8FCA0 /* KanMeiTuUITests.swift */; };
 		765FBCB028B849E200D8FCA0 /* KanMeiTuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765FBCAF28B849E200D8FCA0 /* KanMeiTuUITestsLaunchTests.swift */; };
+		765FBCBE28B863BE00D8FCA0 /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765FBCBD28B863BE00D8FCA0 /* SplashController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		765FBCA928B849E200D8FCA0 /* KanMeiTuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanMeiTuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		765FBCAD28B849E200D8FCA0 /* KanMeiTuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanMeiTuUITests.swift; sourceTree = "<group>"; };
 		765FBCAF28B849E200D8FCA0 /* KanMeiTuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanMeiTuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		765FBCBD28B863BE00D8FCA0 /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		765FBC8B28B849E100D8FCA0 /* KanMeiTu */ = {
 			isa = PBXGroup;
 			children = (
+				765FBCBC28B863B000D8FCA0 /* Controller */,
 				765FBC8C28B849E100D8FCA0 /* AppDelegate.swift */,
 				765FBC8E28B849E100D8FCA0 /* SceneDelegate.swift */,
 				765FBC9028B849E100D8FCA0 /* ViewController.swift */,
@@ -125,6 +128,14 @@
 				765FBCAF28B849E200D8FCA0 /* KanMeiTuUITestsLaunchTests.swift */,
 			);
 			path = KanMeiTuUITests;
+			sourceTree = "<group>";
+		};
+		765FBCBC28B863B000D8FCA0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				765FBCBD28B863BE00D8FCA0 /* SplashController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				765FBCBE28B863BE00D8FCA0 /* SplashController.swift in Sources */,
 				765FBC9128B849E100D8FCA0 /* ViewController.swift in Sources */,
 				765FBC8D28B849E100D8FCA0 /* AppDelegate.swift in Sources */,
 				765FBC8F28B849E100D8FCA0 /* SceneDelegate.swift in Sources */,

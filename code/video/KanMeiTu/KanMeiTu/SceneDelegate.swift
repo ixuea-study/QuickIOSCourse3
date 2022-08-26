@@ -10,7 +10,25 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
+    
+    /// 定义一个静态的计算属性
+    /// 返回SceneDelegate对象实例
+    open class var shared:SceneDelegate{
+        get{
+            let scene = UIApplication.shared.connectedScenes.first
+            return scene?.delegate as! SceneDelegate
+        }
+    }
+    
+    /// 下一步操作
+    func next() {
+        print("AppDelegate next")
+        //真实项目中
+        //可能还有引导界面
+        //大家可以学习我们的《iOS项目实战之我的云音乐使用Swift》课程
+        
+        //TODO 跳转到登录界面
+    }
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.

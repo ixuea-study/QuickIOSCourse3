@@ -27,8 +27,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         //可能还有引导界面
         //大家可以学习我们的《iOS项目实战之我的云音乐使用Swift》课程
         
-        //跳转到登录界面
-        toLogin()
+        if PreferenceUtil.isLogin() {
+            toHome()
+        } else {
+            toLogin()
+        }
     }
     
     /// 跳转到登录界面

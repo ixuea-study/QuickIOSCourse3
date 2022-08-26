@@ -51,6 +51,10 @@ class LoginController: UIViewController {
         
         if Constant.PHONE==phone && Constant.PASSWORD == password {
             //登录成功
+            
+            //登录完成后保存一个标致
+            //下次就不用在登录了
+            PreferenceUtil.setLogin(true)
                        
            //进入首页
             SceneDelegate.shared.toHome()

@@ -20,6 +20,7 @@
 		765FBCC028B8665D00D8FCA0 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765FBCBF28B8665D00D8FCA0 /* LoginController.swift */; };
 		765FBCC328B8697C00D8FCA0 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765FBCC228B8697C00D8FCA0 /* StringExtension.swift */; };
 		765FBCC628B86AB500D8FCA0 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765FBCC528B86AB500D8FCA0 /* Constant.swift */; };
+		765FBCC828B86DF200D8FCA0 /* PreferenceUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765FBCC728B86DF200D8FCA0 /* PreferenceUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		765FBCBF28B8665D00D8FCA0 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		765FBCC228B8697C00D8FCA0 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		765FBCC528B86AB500D8FCA0 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		765FBCC728B86DF200D8FCA0 /* PreferenceUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				765FBCC528B86AB500D8FCA0 /* Constant.swift */,
+				765FBCC728B86DF200D8FCA0 /* PreferenceUtil.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				765FBCBE28B863BE00D8FCA0 /* SplashController.swift in Sources */,
 				765FBC9128B849E100D8FCA0 /* ViewController.swift in Sources */,
 				765FBCC328B8697C00D8FCA0 /* StringExtension.swift in Sources */,
+				765FBCC828B86DF200D8FCA0 /* PreferenceUtil.swift in Sources */,
 				765FBC8D28B849E100D8FCA0 /* AppDelegate.swift in Sources */,
 				765FBC8F28B849E100D8FCA0 /* SceneDelegate.swift in Sources */,
 				765FBCC028B8665D00D8FCA0 /* LoginController.swift in Sources */,

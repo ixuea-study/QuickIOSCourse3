@@ -82,6 +82,34 @@
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="7Og-3x-ERZ">
                                         <rect key="frame" x="0.0" y="61" width="382" height="725"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <prototypes>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="180" id="10S-oG-bcS" customClass="ImageCell" customModule="KanMeiTu" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="44.5" width="382" height="180"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="10S-oG-bcS" id="u6t-Kr-CXn">
+                                                    <rect key="frame" x="0.0" y="0.0" width="382" height="180"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="d1D-2u-PCk">
+                                                            <rect key="frame" x="0.0" y="0.0" width="382" height="180"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="d1D-2u-PCk" firstAttribute="leading" secondItem="u6t-Kr-CXn" secondAttribute="leading" id="5xv-Kz-bjR"/>
+                                                        <constraint firstAttribute="bottom" secondItem="d1D-2u-PCk" secondAttribute="bottom" id="99z-nG-ufV"/>
+                                                        <constraint firstAttribute="trailing" secondItem="d1D-2u-PCk" secondAttribute="trailing" id="RyS-6G-WRj"/>
+                                                        <constraint firstItem="d1D-2u-PCk" firstAttribute="top" secondItem="u6t-Kr-CXn" secondAttribute="top" id="fP0-1X-FyW"/>
+                                                    </constraints>
+                                                </tableViewCellContentView>
+                                                <connections>
+                                                    <outlet property="iconView" destination="d1D-2u-PCk" id="C0c-CR-zYc"/>
+                                                </connections>
+                                            </tableViewCell>
+                                        </prototypes>
+                                        <connections>
+                                            <outlet property="dataSource" destination="BYZ-38-t0r" id="Q2P-hI-km3"/>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="7QV-Cs-gq7"/>
+                                        </connections>
                                     </tableView>
                                 </subviews>
                             </stackView>
@@ -95,10 +123,13 @@
                             <constraint firstItem="gPO-IB-3ig" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="w18-p9-yfq"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="7Og-3x-ERZ" id="BDR-VA-ec2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="162" y="96"/>
+            <point key="canvasLocation" x="160.86956521739131" y="95.758928571428569"/>
         </scene>
         <!--Login Controller-->
         <scene sceneID="AOr-hR-BER">
@@ -170,6 +201,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="1" width="640" height="360"/>
         <image name="SplashBanner" width="74.666664123535156" height="309"/>
         <image name="SplashLogo" width="188" height="31.666666030883789"/>
         <systemColor name="systemBackgroundColor">

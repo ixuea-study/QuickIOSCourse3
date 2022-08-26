@@ -21,6 +21,7 @@
 		765FBCC328B8697C00D8FCA0 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765FBCC228B8697C00D8FCA0 /* StringExtension.swift */; };
 		765FBCC628B86AB500D8FCA0 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765FBCC528B86AB500D8FCA0 /* Constant.swift */; };
 		765FBCC828B86DF200D8FCA0 /* PreferenceUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765FBCC728B86DF200D8FCA0 /* PreferenceUtil.swift */; };
+		765FBCCB28B872DB00D8FCA0 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765FBCCA28B872DB00D8FCA0 /* ImageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		765FBCC228B8697C00D8FCA0 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		765FBCC528B86AB500D8FCA0 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		765FBCC728B86DF200D8FCA0 /* PreferenceUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceUtil.swift; sourceTree = "<group>"; };
+		765FBCCA28B872DB00D8FCA0 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		765FBC8B28B849E100D8FCA0 /* KanMeiTu */ = {
 			isa = PBXGroup;
 			children = (
+				765FBCC928B872C900D8FCA0 /* Cell */,
 				765FBCC428B86AAA00D8FCA0 /* Util */,
 				765FBCC128B8695800D8FCA0 /* Extension */,
 				765FBCBC28B863B000D8FCA0 /* Controller */,
@@ -164,6 +167,14 @@
 				765FBCC728B86DF200D8FCA0 /* PreferenceUtil.swift */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		765FBCC928B872C900D8FCA0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				765FBCCA28B872DB00D8FCA0 /* ImageCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +310,7 @@
 			files = (
 				765FBCC628B86AB500D8FCA0 /* Constant.swift in Sources */,
 				765FBCBE28B863BE00D8FCA0 /* SplashController.swift in Sources */,
+				765FBCCB28B872DB00D8FCA0 /* ImageCell.swift in Sources */,
 				765FBC9128B849E100D8FCA0 /* ViewController.swift in Sources */,
 				765FBCC328B8697C00D8FCA0 /* StringExtension.swift in Sources */,
 				765FBCC828B86DF200D8FCA0 /* PreferenceUtil.swift in Sources */,

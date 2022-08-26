@@ -500,6 +500,7 @@
 				DEVELOPMENT_TEAM = RG5D4WKJ7M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KanMeiTu/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "看美图";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -528,6 +529,7 @@
 				DEVELOPMENT_TEAM = RG5D4WKJ7M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KanMeiTu/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "看美图";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

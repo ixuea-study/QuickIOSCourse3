@@ -22,6 +22,7 @@
 		765FBCC628B86AB500D8FCA0 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765FBCC528B86AB500D8FCA0 /* Constant.swift */; };
 		765FBCC828B86DF200D8FCA0 /* PreferenceUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765FBCC728B86DF200D8FCA0 /* PreferenceUtil.swift */; };
 		765FBCCB28B872DB00D8FCA0 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765FBCCA28B872DB00D8FCA0 /* ImageCell.swift */; };
+		765FBCCD28B875AA00D8FCA0 /* ImageDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765FBCCC28B875AA00D8FCA0 /* ImageDetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		765FBCC528B86AB500D8FCA0 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		765FBCC728B86DF200D8FCA0 /* PreferenceUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceUtil.swift; sourceTree = "<group>"; };
 		765FBCCA28B872DB00D8FCA0 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		765FBCCC28B875AA00D8FCA0 /* ImageDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			children = (
 				765FBCBD28B863BE00D8FCA0 /* SplashController.swift */,
 				765FBCBF28B8665D00D8FCA0 /* LoginController.swift */,
+				765FBCCC28B875AA00D8FCA0 /* ImageDetailController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				765FBCCD28B875AA00D8FCA0 /* ImageDetailController.swift in Sources */,
 				765FBCC628B86AB500D8FCA0 /* Constant.swift in Sources */,
 				765FBCBE28B863BE00D8FCA0 /* SplashController.swift in Sources */,
 				765FBCCB28B872DB00D8FCA0 /* ImageCell.swift in Sources */,

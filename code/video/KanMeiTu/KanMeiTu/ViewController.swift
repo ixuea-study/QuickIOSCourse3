@@ -47,5 +47,13 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
         cell.bind(data)
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let data=dataArray[indexPath.row]
+        
+        let controller=storyboard?.instantiateViewController(withIdentifier: "ImageDetail") as! ImageDetailController
+        controller.id = data
+        navigationController?.pushViewController(controller, animated: true)
+    }
 }
 

@@ -40,7 +40,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
     
     func toHome() {
-        setRootController("Home")
+        setRootController("HomeNavi")
     }
     
     func setRootController(_ data:String) {

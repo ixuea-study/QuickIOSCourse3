@@ -64,8 +64,36 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="gPO-IB-3ig">
+                                <rect key="frame" x="16" y="60" width="382" height="786"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wJA-8I-OSB">
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="xri-vY-Rdc"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="退出登陆"/>
+                                        <connections>
+                                            <action selector="logoutClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s2b-1J-ghl"/>
+                                        </connections>
+                                    </button>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="7Og-3x-ERZ">
+                                        <rect key="frame" x="0.0" y="61" width="382" height="725"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </tableView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="gPO-IB-3ig" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="SFM-t4-QqG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gPO-IB-3ig" secondAttribute="trailing" constant="16" id="Tc7-32-vbt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gPO-IB-3ig" secondAttribute="bottom" constant="16" id="jLt-pb-GAj"/>
+                            <constraint firstItem="gPO-IB-3ig" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="w18-p9-yfq"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
